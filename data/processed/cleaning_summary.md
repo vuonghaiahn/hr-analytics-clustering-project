@@ -5,15 +5,15 @@
 - After cleaning: (4410, 26)
 
 ## Columns dropped
-- employeecount, over18, standardhours
+- employee_count, over_18, standard_hours
 
 ## Missing values
 - Missing values were found in:
-  - worklifebalance
-  - environmentsatisfaction
-  - jobsatisfaction
-  - numcompaniesworked
-  - totalworkingyears
+  - work_life_balance
+  - environment_satisfaction
+  - job_satisfaction
+  - num_companies_worked
+  - total_working_years
 - All missing percentages were low, so median imputation was applied to numeric columns.
 
 ## Duplicate check
@@ -32,4 +32,4 @@
 
 ## Clustering note
 - The following columns will be excluded from clustering input later:
-  - employeeid, employeecount, over18, standardhours
+  - employee_id, employee_count, over_18, standard_hours
