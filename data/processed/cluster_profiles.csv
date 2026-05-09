@@ -1,0 +1,5 @@
+cluster_kmeans,age,monthly_income,total_working_years,years_at_company,job_level,job_satisfaction,environment_satisfaction,work_life_balance,performance_rating,job_involvement,tenure_ratio,total_satisfaction,attrition_num,size,attrition_rate%
+0,35.99,65788.376,10.248,5.871,2.067,2.835,2.742,2.737,4.0,2.727,0.566,2.771,0.186,582,18.556701030927837
+1,35.885,65097.405,9.315,4.306,2.104,2.691,2.72,2.764,3.0,2.719,0.495,2.725,0.18,1902,17.981072555205046
+2,35.439,58524.465,9.08,5.29,2.146,2.781,2.707,2.791,3.054,2.735,0.553,2.76,0.155,1065,15.492957746478872
+3,41.686,65197.822,18.121,15.871,1.871,2.678,2.747,2.747,3.045,2.749,0.822,2.724,0.111,861,11.149825783972126
