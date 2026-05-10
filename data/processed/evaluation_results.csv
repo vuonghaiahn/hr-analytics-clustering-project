@@ -1,0 +1,4 @@
+Model,n_clusters,Silhouette,Davies-Bouldin,Calinski-Harabasz
+K-Means (k=4),4,0.0726,3.1156,246.84
+"DBSCAN (eps=6.42, ms=5)",2,0.1517,1.1722,9.37
+"Hierarchical (k=4, ward)",4,0.0579,3.0264,168.71
