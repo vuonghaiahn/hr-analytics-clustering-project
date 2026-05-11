@@ -2,7 +2,7 @@
 
 ## Dataset shapes
 - Before cleaning: (4410, 29)
-- After cleaning: (4410, 26)
+- After cleaning: (4410, 27)
 
 ## Columns dropped
 - employee_count, over_18, standard_hours
@@ -24,7 +24,8 @@
 ## Data type review
 - Numeric variables already had appropriate numeric types.
 - Categorical variables were stored as object/text.
-- No actual date/time columns were present in the merged dataset.
+- The raw attendance files contained date/time records, which were used to engineer avg_working_hours.
+- The original date/time columns were not directly merged into the final employee-level dataset.
 
 ## Categorical values
 - No major categorical inconsistencies were found.
