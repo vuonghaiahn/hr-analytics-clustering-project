@@ -27,6 +27,12 @@
 - The raw attendance files contained date/time records, which were used to engineer avg_working_hours.
 - The original date/time columns were not directly merged into the final employee-level dataset.
 
+## Attendance feature engineering
+- avg_working_hours was created from in_time.csv and out_time.csv.
+- Daily working hours were calculated as out_time minus in_time.
+- Only valid working-hour records between 0 and 16 hours were used.
+- The final feature was aggregated at employee level and merged into df_clean.
+
 ## Categorical values
 - No major categorical inconsistencies were found.
 - Basic string cleaning was applied.
